@@ -1,0 +1,15 @@
+header{
+    width: 100%;
+    height: 74px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    margin: auto !important;
+    z-index: 5;
+}
+
+.gallery{
+    width: 100% !important;
+}
