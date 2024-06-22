@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Archangelsk";
+    src: url("archangelsk-font.ttf");
+}
+
 header{
     width: 100%;
     height: 74px;
@@ -15,12 +22,14 @@ header{
 }
 
 p{
-    font-family: Archangelsk;
-    font-size: 62px;
+    font-family: "Archangelsk";
+    font-size: 41px;
     font-weight: 400;
-    line-height: 63.3px;
+    line-height: 42.2px;
     text-align: left;
-
+    position: absolute;
+    top: 47px;
+    left: 47px;
 }
 
 button{
@@ -29,4 +38,70 @@ button{
     padding: 19px 50px 19px 50px;
     background: rgba(0, 0, 0, 1);
     color: rgba(248, 242, 0, 1);
+    position: absolute;
+    top: 147px;
+    left: 47px;
+}
+
+.learn-more{
+    position: absolute;
+    width: 416px;
+    height: 246px;
+    top: 545px;
+    left: 755px;
+}
+
+b{
+    color: blue;
+}
+
+.second{
+    background-color: white;
+}
+
+.night-city{
+    width: 996px;
+    height: 63px;
+    top: 850px;
+    left: 200px;
+    font-family: Archangelsk;
+    line-height: 63.3px;
+    text-align: left;
+}
+
+.night-city-text{
+    width: 952px;
+    height: 125px;
+    top: 925px;
+    left: 200px;
+    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 34px;
+    text-align: left;
+}
+
+.two-pictures{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between(32px);
+}
+
+.pictures{
+    width: 1280px;
+    height: 428px;
+    position: absolute;
+    top: 1125px;
+    left: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.picture-three{
+    position: absolute;
+    top: 228px;
+}
+
+.picture-one{
+    position: absolute;
+    left: 492px;
 }
