@@ -13,3 +13,20 @@ header{
 .gallery{
     width: 100% !important;
 }
+
+p{
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63.3px;
+    text-align: left;
+
+}
+
+button{
+    width: Hug (272px)px;
+    height: Hug (78px)px;
+    padding: 19px 50px 19px 50px;
+    background: rgba(0, 0, 0, 1);
+    color: rgba(248, 242, 0, 1);
+}
